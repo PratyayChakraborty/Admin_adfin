@@ -10,8 +10,9 @@ import rimg from "../../public/rimg.png"
 export default function Home() {
   return (
     <main >
-      
+      {/* login container */}
       <div className={loginStyles.container}>
+        {/* login left box */}
         <div className={loginStyles.left}>
           <Image
             src={AdFinlogo}
@@ -20,7 +21,7 @@ export default function Home() {
           <div className={loginStyles.formBox}>
             <h2 style={{ color: "black", fontWeight: "bold",lineHeight:"50px" }}><b>Login</b></h2>
             <p style={{ marginBottom:"10px" }}>Enter Your Email ID and Password To Login</p>
-
+            {/* login form */}
             <form>
               <div className={loginStyles.inputBox}>
                 <span>
@@ -52,6 +53,7 @@ export default function Home() {
           </div>
 
         </div>
+        {/* login right box */}
         <div className={loginStyles.containerRight}>
           <h1 >
             Welcome To  <br/>
